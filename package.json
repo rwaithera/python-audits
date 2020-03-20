@@ -1,0 +1,15 @@
+{
+  "name": "python-audits",
+  "version": "1.0.0",
+  "description": "tests for devc challenge",
+  "main": "index.js",
+  "repository": "git@github.com:rwaithera/python-audits.git",
+  "author": "Ruth Waithera",
+  "license": "MIT",
+  "jest": {
+    "moduleFileExtensions": ["py"],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": [],
+    "testMatch": ["**/test_*.py"]
+  }
+}
