@@ -1,5 +1,8 @@
 from src.sum import sum
 
+def sum_test():
+    assert sum(2, 3) == 5
+
 def test_2_positive_numbers():
     assert sum(2, 3) == 5
     assert sum(5, 4) == 9
