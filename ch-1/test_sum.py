@@ -1,6 +1,7 @@
 from src.sum import sum
 
 class TestSum:
+
     def test_2_positive_numbers(self):
         assert sum(2, 3) == 5
         assert sum(5, 4) == 9
