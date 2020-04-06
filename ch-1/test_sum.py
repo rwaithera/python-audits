@@ -1,7 +1,5 @@
 from src.sum import sum
 
-from src.sum import sum
-
 
 def test_2_positive_numbers():
     assert sum(2, 3) == 5
@@ -19,7 +17,3 @@ def test_2_positive_and_negative_numbers():
     assert sum(2, -3) == -1
     assert sum(5, -4) == 1
     assert sum(-10, 5) == -5
-
-
-def test_fail():
-    assert(2+1) == 5
